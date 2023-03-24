@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Prince-Landing-Page/static/css/main.073c9b0a.css",
+    "main.js": "/Prince-Landing-Page/static/js/main.9d3ad7d9.js",
+    "static/js/787.d3befce1.chunk.js": "/Prince-Landing-Page/static/js/787.d3befce1.chunk.js",
+    "static/media/logo.svg": "/Prince-Landing-Page/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Prince-Landing-Page/index.html",
+    "main.073c9b0a.css.map": "/Prince-Landing-Page/static/css/main.073c9b0a.css.map",
+    "main.9d3ad7d9.js.map": "/Prince-Landing-Page/static/js/main.9d3ad7d9.js.map",
+    "787.d3befce1.chunk.js.map": "/Prince-Landing-Page/static/js/787.d3befce1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.9d3ad7d9.js"
+  ]
+}
