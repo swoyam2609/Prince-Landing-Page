@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Prince-Landing-Page/static/css/main.8795f51f.css",
-    "main.js": "/Prince-Landing-Page/static/js/main.389cba66.js",
+    "main.css": "/Prince-Landing-Page/static/css/main.4acc804f.css",
+    "main.js": "/Prince-Landing-Page/static/js/main.8a57715e.js",
     "static/js/787.d3befce1.chunk.js": "/Prince-Landing-Page/static/js/787.d3befce1.chunk.js",
     "static/media/heroimg.svg": "/Prince-Landing-Page/static/media/heroimg.97e96e2ce6f254699482a8244aea0940.svg",
     "static/media/designillustration.svg": "/Prince-Landing-Page/static/media/designillustration.9793a56b78429a6274b8928d755e5197.svg",
@@ -23,6 +23,7 @@
     "static/media/Poppins-Bold.ttf": "/Prince-Landing-Page/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
     "static/media/Poppins-ExtraBold.ttf": "/Prince-Landing-Page/static/media/Poppins-ExtraBold.01849ee091e1762a5dd5.ttf",
     "static/media/Poppins-Black.ttf": "/Prince-Landing-Page/static/media/Poppins-Black.d8b850b920a5ef49d752.ttf",
+    "static/media/rating.svg": "/Prince-Landing-Page/static/media/rating.d6664924ed95531d0bbc9805477efc57.svg",
     "static/media/instagram.svg": "/Prince-Landing-Page/static/media/instagram.1c647a99f00b63364d1418faaa9e194b.svg",
     "static/media/portfolio.svg": "/Prince-Landing-Page/static/media/portfolio.702f4f2e5697c7a5b25aa81c2d1ad0bc.svg",
     "static/media/contact.svg": "/Prince-Landing-Page/static/media/contact.5667516a81f181c0fa59e8a34715f455.svg",
@@ -33,12 +34,12 @@
     "index.html": "/Prince-Landing-Page/index.html",
     "static/media/telegram.svg": "/Prince-Landing-Page/static/media/telegram.66d1f65c3a4414da092d64fce2965fb8.svg",
     "static/media/facebook.svg": "/Prince-Landing-Page/static/media/facebook.fbf91e3bfbca52281d3b687826e3e382.svg",
-    "main.8795f51f.css.map": "/Prince-Landing-Page/static/css/main.8795f51f.css.map",
-    "main.389cba66.js.map": "/Prince-Landing-Page/static/js/main.389cba66.js.map",
+    "main.4acc804f.css.map": "/Prince-Landing-Page/static/css/main.4acc804f.css.map",
+    "main.8a57715e.js.map": "/Prince-Landing-Page/static/js/main.8a57715e.js.map",
     "787.d3befce1.chunk.js.map": "/Prince-Landing-Page/static/js/787.d3befce1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8795f51f.css",
-    "static/js/main.389cba66.js"
+    "static/css/main.4acc804f.css",
+    "static/js/main.8a57715e.js"
   ]
 }
