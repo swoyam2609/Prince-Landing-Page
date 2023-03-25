@@ -1,5 +1,5 @@
 import "./App.css";
-import heroimg from "./assets/heroimg.svg";
+import heroimg from "./assets/hero.png";
 import home from "./assets/home.svg";
 import about from "./assets/about.svg";
 import portfolio from "./assets/portfolio.svg";
@@ -11,7 +11,7 @@ import instagram from "./assets/instagram.svg";
 import instagram1 from "./assets/instagram2.svg";
 import telegram from "./assets/telegram.svg";
 import telegram2 from "./assets/telegram2.svg";
-import design from "./assets/designillustration.svg";
+import design from "./assets/designillustration.png";
 import rating from "./assets/rating.svg";
 import communicative from "./assets/communicative.svg";
 import professional from "./assets/proffesional.svg";
@@ -23,7 +23,7 @@ import work3 from "./assets/work3.svg";
 import work4 from "./assets/work4.svg";
 import work5 from "./assets/work5.svg";
 import work6 from "./assets/work6.svg";
-import user from "./assets/user.svg";
+import user from "./assets/user.png";
 import html from "./assets/html.svg";
 import css from "./assets/css.svg";
 import figma from "./assets/figma.svg";
@@ -44,7 +44,12 @@ function App() {
             {/* Navbar */}
             <div className="w-full top-0 sticky z-10 bg-darkpurple flex flex-row pt-2 pb-1 px-4 flex-grow lg:fixed lg:flex-col lg:w-fit lg:space-y-4 lg:top-8 lg:rounded-r-lg lg:px-2 lg:py-3">
                 <div className="flex-col grow hidden lg:flex">
-                    <img id="home" className="grow h-10 lg:mb-5" src={logo} alt="" />
+                    <img
+                        id="home"
+                        className="grow h-10 lg:mb-5"
+                        src={logo}
+                        alt=""
+                    />
                 </div>
                 <div className="flex flex-col grow">
                     <img id="home" className="grow h-10" src={home} alt="" />
@@ -88,10 +93,10 @@ function App() {
                 {/* Hero Sectioon */}
                 <section className="relative flex flex-col md:flex-row">
                     <div className="flex flex-col md:my-auto">
-                        <p className="w-full text-center mb-3 px-5 font-poppins-regular mx-auto md:text-left md:mb-1">
+                        <p className="w-full text-center mb-1 px-5 font-poppins-regular mx-auto md:text-left md:mb-1">
                             Hi!
                         </p>
-                        <p className="w-fit mb-3 font-poppins-semibold text-2xl text-center mx-auto px-5 md:text-left">
+                        <p className="w-fit mb-3 font-poppins-semibold text-3xl text-center mx-auto px-5 md:text-left md:mx-0">
                             I’m Prince Pious Omm Prakash an UI/UX Designer.
                         </p>
                         <p className="w-full font-poppins-regular text-base leading-5 text-center mx-auto px-5 md:text-left">
@@ -375,7 +380,7 @@ function App() {
                 </div>
 
                 {/* Interested in working with me */}
-                <div className="flex flex-col mb-10 p-10 rounded-xl bg-darkpurple md:flex-row">
+                <div className="flex flex-col mb-10 p-10 mx-1 rounded-xl bg-darkpurple md:flex-row">
                     <p className="text-white font-poppins-bold text-2xl text-center mb-8 md:text-3xl md:font-poppins-semibold md:w-1/2 md:text-left md:mb-0">
                         Interested in Working with me
                     </p>
@@ -437,20 +442,20 @@ function App() {
                 </div>
             </div>
             <footer className="bg-lightgray py-12 flex-col flex space-y-3 md:flex-row md:space-y-0 md:px-16">
-                    <div className="flex flex-row mx-auto md:w-1/3">
-                        <img className="mr-1" src={mail} alt="" />
-                        <p className="font-poppins-regular">
-                            b221042@iiit-bh.ac.in
-                        </p>
-                    </div>
-                    <p className="w-full text-center font-poppins-regular md:w-1/3">
-                        © Copyright 2022 | Prince
+                <div className="flex flex-row mx-auto md:w-1/3">
+                    <img className="mr-1" src={mail} alt="" />
+                    <p className="font-poppins-regular">
+                        b221042@iiit-bh.ac.in
                     </p>
-                    <div className="flex flex-row space-x-5 mx-auto md:w-1/3 ml-auto">
-                        <img className=" h-5 md:ml-auto" src={instagram1} alt="" />
-                        <img className=" h-5 " src={telegram2} alt="" />
-                    </div>
-                </footer>
+                </div>
+                <p className="w-full text-center font-poppins-regular md:w-1/3">
+                    © Copyright 2022 | Prince
+                </p>
+                <div className="flex flex-row space-x-5 mx-auto md:w-1/3 ml-auto">
+                    <img className=" h-5 md:ml-auto" src={instagram1} alt="" />
+                    <img className=" h-5 " src={telegram2} alt="" />
+                </div>
+            </footer>
         </>
     );
 }
